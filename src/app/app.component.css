@@ -1,0 +1,28 @@
+.navi {
+  display: flex;
+  margin-left: auto;
+}
+.links {
+  padding: 0.4rem 0.7rem;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 1px 0px 3px black;
+  margin: 0.2rem;
+  transition: all 400ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  /* transform: translate(0); */
+}
+.links:hover {
+  /* background-color: white; */
+  /* color: rebeccapurple; */
+  transform: translate(0, 10%);
+}
+.header {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+}
